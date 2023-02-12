@@ -1,0 +1,47 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>RegisterController</servlet-name>
+  	<display-name>RegisterController</display-name>
+  	<description></description>
+  	<servlet-class>userModel.RegisterController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>userModel.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ProductController</servlet-name>
+  	<display-name>ProductController</display-name>
+  	<description></description>
+  	<servlet-class>userController.ProductController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddToCartController</servlet-name>
+  	<display-name>AddToCartController</display-name>
+  	<description></description>
+  	<servlet-class>userController.AddToCartController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>RegisterController</servlet-name>
+  	<url-pattern>/RegisterController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ProductController</servlet-name>
+  	<url-pattern>/ProductController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddToCartController</servlet-name>
+  	<url-pattern>/AddToCartController</url-pattern>
+  </servlet-mapping>
+</web-app>
